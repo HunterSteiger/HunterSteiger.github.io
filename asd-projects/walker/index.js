@@ -53,7 +53,7 @@ function runProgram(){
       speedX = 5
     } if (event.which === KEY.LEFT){
       speedX = -5
-    } if (event.which === KEY.UP){
+    } if (event.which === KEY.UP){ 
       speedY = -5
     } if (event.which === KEY.DOWN){
       speedY = 5
