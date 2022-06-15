@@ -1,0 +1,45 @@
+User Story / Gameplay
+    Describe the gameplay
+        A snake will be controlled by the player. The snake cannot touch itself and the walls. 
+        if the snake touches itself or the walls the game ends. The goal of the game is to eat
+        as many apples as possible without dying. Every time the snake eats an apple the snake 
+        increases in length which increases the diffuculty.
+
+    What are the conditions when the game begins?
+        the snake length is === to 1, the snake starts in the center of the screen, the apple 
+        starts at a random place on the screen, the game is awaiting user input to start moving
+        the snake
+
+    Does the game have an end? If so, what are the conditions for when it ends?
+        Yes, the game does have an end the game ends when the snake head runs into itself or 
+        into one of the four walls.
+
+    What ifs will there be?
+        if the snake touches the walls,  if the snake eats an apple, if the snake runs into itself
+
+Visual Game Components:
+    What are the visual game components? For example, in Bouncing Box, the game components 
+    were the board and the box.
+        the visual game components are the snake, the walls, and the apple
+
+    Which will be static? (the board)
+        the walls, location of timer and location of the length of snake counter
+
+    Which will be animated? (the box)
+        the snake, the apple, timer, and length of snake, and length of snake counter
+
+    What data will you need to manage each game component? For example, in Bouncing Box, the 
+    data values were positionX, speedX, and points.
+        speedX, speedY, postionX, postiionY, countDownTimer, snakeLength 
+
+Events / Logic
+    What events will occur in this game? (timer events, keyboard events, clicking events?)
+        The events included will be, keyUp, keyDown
+
+    How do those events affect the data of the program?
+        the events start the timers and change the direction of the snake while also starting
+        the game itself
+
+    For each "event", write out the high-level logic of what will happen. It is better (and 
+    tricky) to be as specific as you can while remaining high-level!
+        
